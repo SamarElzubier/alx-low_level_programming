@@ -3,7 +3,7 @@
 /**
  * main - prints "with proper grammar, but the outcome is
  * a piece of art," followed newline
- * Return:Always0. 
+ * Return: Always 0. 
  *
  */
 
