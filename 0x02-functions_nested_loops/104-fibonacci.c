@@ -21,7 +21,7 @@ fib1_half1 = fib1 / 10000000000;
 fib2_half1 = fib2 / 10000000000;
 fib1_half2 = fib1 % 10000000000;
 fib2_half2 = fib2 % 10000000000;
-for (count 93; count < 99; count++)
+for (count = 93; count < 99; count++)
 {
 half1 = fib1_half1 + fib2_half1;
 half2 = fib1_half2 + fib2_half2;
@@ -38,6 +38,6 @@ fib1_half2 = fib2_half2;
 fib2_half1 = half1;
 fib2_half2 = half2;
 }
-printf("\n")
+printf("\n");
 return (0);
 }
